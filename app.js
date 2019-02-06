@@ -33,3 +33,20 @@ incrementing
 //One day, I'd like to go to _element 1_.
 //One day, I'd like to go to _element 2_.
 //One day, I'd like to go to _element 3_.
+
+
+/*  i=i+1
+    shortcut:i++
+    i=i+2
+    shortcut: i+=2
+    i=i+3
+    shortcut:i+=3
+*/
+//create a loop that prints "HTA rocks. " 3 times 
+for(i=1;i<4;i=i+1){
+    console.log("HTA Rocks");
+}
+//create a loop that prints even numbers
+for(i=0;i<10;i=i+2){
+    console.log(i);
+}
